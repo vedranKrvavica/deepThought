@@ -1,0 +1,22 @@
+package supercomputerDeepThought;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.platform.commons.util.StringUtils;
+
+class questionTest {
+
+	@Test
+	void test() {
+		
+		assertEquals("test?", DeepThought.checkQuestion("test?"));
+		assertEquals(null, DeepThought.checkQuestion("?"));
+		assertEquals(null, DeepThought.checkQuestion("   ?"));
+		String qCorrect = "a".repeat(254) + "?";
+		assertEquals(qCorrect, DeepThought.checkQuestion(qCorrect));
+		String qWrong = "a".repeat(254) + "?";
+
+	}
+
+}

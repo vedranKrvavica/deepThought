@@ -1,0 +1,19 @@
+package supercomputerDeepThought;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class getAnswerTest {
+
+	@Test
+	void test() {
+		DeepThought dt = new DeepThought();
+		String answerToEverything = dt.answerToEverything[0];
+		
+		
+		assertEquals(answerToEverything, dt.getAnswers("why?"));
+		
+	}
+
+}

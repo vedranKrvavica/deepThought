@@ -1,0 +1,14 @@
+package supercomputerDeepThought;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class questionTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,14 @@
+package supercomputerDeepThought;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class questionTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.junit.platform.commons.util.StringUtils"/>
+    <fullyQualifiedTypeName name="supercomputerDeepThought.DeepThought"/>
+    <fullyQualifiedTypeName name="supercomputerDeepThought.answerTest"/>
+    <fullyQualifiedTypeName name="supercomputerDeepThought.questionTest"/>
+    <fullyQualifiedTypeName name="supercomputerDeepThought.getAnswerTest"/>
+</qualifiedTypeNameHistroy>

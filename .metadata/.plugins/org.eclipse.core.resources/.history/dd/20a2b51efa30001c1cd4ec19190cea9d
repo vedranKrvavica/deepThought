@@ -1,0 +1,15 @@
+package supercomputerDeepThought;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class answerTest {
+
+	@Test
+	void test() {
+		assertEquals(null, DeepThought.checkAnswers("test?"));
+		assertEquals(null, DeepThought.checkAnswers(" \"a\""));
+	}
+
+}
